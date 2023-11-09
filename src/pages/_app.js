@@ -1,23 +1,18 @@
-import Layout from '@/components/Layout'
-import '@/styles/globals.css'
-import AOS from "aos";
-import { useEffect } from 'react'
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-
-
-export default function App({ Component, pageProps }) {
+function MyApp({ Component, pageProps }) {
 	useEffect(() => {
-		import('preline')
-
 		AOS.init({
-      easing: "ease-out-cubic",
-      once: true,
-      offset: 50,
+			easing: "ease-out-cubic",
+			once: true,
+			offset: 50,
 			duration: 800
-    });
-	}, [])
+		});
+	}, []);
 
-	return (
-		<Component {...pageProps} />
-	)
+	return <Component {...pageProps} />;
 }
+
+export default MyApp;
