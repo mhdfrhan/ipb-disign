@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document() {
   return (
@@ -9,7 +10,7 @@ export default function Document() {
         <NextScript />
 
 				<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-				<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+				<Script src="https://unpkg.com/aos@next/dist/aos.js"></Script>
       </body>
     </Html>
   )
