@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { useState } from "react";
 import ReactSignatureCanvas from "react-signature-canvas";
 
@@ -30,11 +29,7 @@ const SignatureImage = () => {
 
 	return (
 		<Layout title={"Gambar Tanda Tangan"}>
-			<Head>
-				<title>Gambar Tanda Tangan</title>
-			</Head>
-
-			<div className="p-8 bg-gradient-to-tl from-[#043667] to-[#032B52] rounded-3xl mb-8">
+			<div className="p-8 bg-gradient-to-tl from-[#043667] to-[#032B52] rounded-3xl mb-8" data-aos="fade-up">
 				<h1 className="text-2xl lg:text-3xl">Informasi</h1>
 				<p className="mt-2.5 text-[#C5E1FC]">
 					Anda dapat mengupload gambar hasil scan tanda tangan Anda (JPG atau PNG) pada halaman ini untuk ditempelkan di dokumen. Pastikan gambar tanda tangan cukup jelas, memiliki kontras yang baik, dan berlatar belakang putih bersih atau transparan. Anda juga dapat menggambar tanda tangan menggunakan mouse, pen tablet, atau alat petunjuk lainnya
@@ -47,7 +42,7 @@ const SignatureImage = () => {
 				</div>
 			)}
 
-			<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4">
+			<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4" data-aos="fade-up" data-aos-delay="100">
 				<h3 className="text-xl mb-6">Tanda Tangan Saya</h3>
 				<div className="flex flex-wrap -mx-3">
 					<div className="w-full sm:w-1/2 px-3">
@@ -73,7 +68,7 @@ const SignatureImage = () => {
 				</div>
 			</div>
 
-			<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4">
+			<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4" data-aos="fade-up" data-aos-delay="150">
 				<h3 className="text-xl mb-6">Upload Tanda Tangan dan Paraf</h3>
 				<form onSubmit={handleSubmit}>
 					<div className="grid sm:grid-cols-2 gap-6">
@@ -92,7 +87,7 @@ const SignatureImage = () => {
 				</form>
 			</div>
 
-			<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4">
+			<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4" data-aos="fade-up" data-aos-delay="200">
 				<h3 className="text-xl mb-6">Coret Tanda Tangan dan Paraf</h3>
 				<form onSubmit={handleSubmit}>
 					<div className="grid sm:grid-cols-2 gap-6">

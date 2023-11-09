@@ -1,6 +1,6 @@
 # Redesign Website IPB DiSignin
 
-Ini adalah redesain situs web <a href="https://digisign.ipb.ac.id/">IPB DiSign</a>.
+Ini adalah redesain dari situs web <a href="https://digisign.ipb.ac.id/">IPB DiSign</a>.
 
 ## Daftar Isi
 
@@ -10,6 +10,7 @@ Ini adalah redesain situs web <a href="https://digisign.ipb.ac.id/">IPB DiSign</
   - [Persyaratan](#persyaratan)
   - [Instalasi](#instalasi)
 - [Penggunaan](#penggunaan)
+- [Demo](#demo)
 
 ## Pendahuluan
 
@@ -68,3 +69,8 @@ yarn dev
 ```
 
 Ini akan memulai server pengembangan. Akses aplikasi melalui browser Anda dengan mengunjungi `http://localhost:3000`.
+
+
+## Demo
+
+Website dapat diakses di <a href="https://ipb-disignin.vercel.app/">https://ipb-disignin.vercel.app/</a>

@@ -1,5 +1,4 @@
 import Layout from "@/components/Layout";
-import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -34,11 +33,7 @@ const Upload = () => {
 
 	return (
 		<Layout title={"Upload Dokumen"}>
-			<Head>
-				<title>Upload Dokumen</title>
-			</Head>
-
-			<div className="p-8 bg-gradient-to-tl from-[#043667] to-[#032B52] rounded-3xl mb-8">
+			<div className="p-8 bg-gradient-to-tl from-[#043667] to-[#032B52] rounded-3xl mb-8" data-aos="fade-up">
 				<h1 className="text-2xl lg:text-3xl">Informasi</h1>
 				<p className="mt-2.5 text-[#C5E1FC]">
 					Di halaman ini Anda dapat mengunggah satu atau lebih dokumen untuk ditandatangani oleh satu atau lebih penanda tangan. Orang yang Anda minta untuk menandatangani dokumen akan mendapat notifikasi melalui e-mail. Jika Anda hendak menandatangani suatu dokumen oleh Anda sendiri, gunakan <Link href="/signin/create" className="underline">halaman ini</Link> <br /><br />
@@ -55,7 +50,7 @@ const Upload = () => {
 			)}
 
 			<form onSubmit={handleSubmit}>
-				<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4">
+				<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4" data-aos="fade-up" data-aos-delay="100">
 					<h3 className="text-xl mb-6">Unggah Dokumen</h3>
 					<div className="flex flex-wrap -mx-5">
 						<div className="w-full md:w-1/3 px-5">
@@ -104,7 +99,7 @@ const Upload = () => {
 					</div>
 				</div>
 
-				<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl">
+				<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl" data-aos="fade-up" data-aos-delay="150">
 					<div className="mb-6">
 						<h3 className="text-xl">Daftar Penanda Tangan</h3>
 						<p className="text-sm mt-2 text-neutral-600">Isikan dengan benar karena tidak dapat diubah lagi setelah disimpan</p>

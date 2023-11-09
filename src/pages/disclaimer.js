@@ -15,22 +15,22 @@ const Disclaimer = () => {
 
 			<section className="relative pb-20 lg:pb-28 pt-40 bg-fixed bg-cover bg-bottom flex items-center justify-center bg-no-repeat before:content-[''] before:absolute before:inset-0 before:bg-neutral-950/80" style={{ backgroundImage: `url(${backgroundImage.src})` }}>
 				<div className="z-10 px-5 text-center max-w-2xl mx-auto">
-					<h1 className="text-3xl lg:text-4xl capitalize text-white leading-relaxed px-2 mb-8">Disclaimer</h1>
+					<h1 className="text-3xl lg:text-4xl capitalize text-white leading-relaxed px-2 mb-8" data-aos="fade-up">Disclaimer</h1>
 					<ol className="flex items-center justify-center whitespace-nowrap" aria-label="Breadcrumb">
-						<li className="inline-flex items-center">
+						<li className="inline-flex items-center" data-aos="fade-up" data-aos-delay="100">
 							<Link className="flex items-center text-sm text-neutral-500 hover:text-white duration-300" href="/">
 								Home
 							</Link>
 							<svg className="flex-shrink-0 mx-2 overflow-visible h-4 w-4 text-neutral-600" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6" /></svg>
 						</li>
-						<li className="inline-flex items-center text-sm font-semibold truncate text-gold" aria-current="page">
+						<li className="inline-flex items-center text-sm font-semibold truncate text-gold" aria-current="page" data-aos="fade-up" data-aos-delay="150">
 							Disclaimer
 						</li>
 					</ol>
 				</div>
 			</section>
 
-			<div className="max-w-6xl mx-auto px-5 mt-8 lg:mt-10">
+			<div className="max-w-6xl mx-auto px-5 mt-8 lg:mt-10" data-aos="fade-up">
 				<h2 className="text-2xl mb-5">Disclaimer</h2>
 				<ul className="list-disc space-y-1 text-neutral-500 ml-10">
 					<li>Tanda tangan digital yang dikeluarkan IPB DiSign hanya untuk keperluan internal IPB University dan tidak memiliki kekuatan hukum di Republik Indonesia.</li>

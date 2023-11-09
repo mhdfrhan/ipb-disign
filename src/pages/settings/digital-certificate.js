@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Link from "next/link";
 
 const { default: Layout } = require("@/components/Layout")
@@ -6,18 +5,14 @@ const { default: Layout } = require("@/components/Layout")
 const DigitalCertificate = () => {
 	return (
 		<Layout title={"Sertifikat Digital"}>
-			<Head>
-				<title>Sertifikat Digital</title>
-			</Head>
-
-			<div className="p-8 bg-gradient-to-tl from-[#043667] to-[#032B52] rounded-3xl mb-8">
+			<div className="p-8 bg-gradient-to-tl from-[#043667] to-[#032B52] rounded-3xl mb-8" data-aos="fade-up">
 				<h1 className="text-2xl lg:text-3xl">Informasi</h1>
 				<p className="mt-2.5 text-[#C5E1FC]">
 					Sertifikat Digital merupakan identitas Anda di sistem untuk membuat tanda tangan digital. Anda hanya dapat memiliki satu sertifikat yang aktif dalam satu waktu. Jika Anda membuat sertifikat baru, sertifikat lama akan dinonaktifkan (revoked) secara otomatis. Anda juga dapat menonaktifkan suatu sertifikat secara manual
 				</p>
 			</div>
 
-			<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4">
+			<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4" data-aos="fade-up" data-aos-delay="100">
 				<div className="mb-6 sm:flex sm:items-center sm:justify-between">
 					<h3 className="text-xl mb-4 sm:mb-0">Daftar Sertifikat</h3>
 					<div className="text-right sm:text-left">

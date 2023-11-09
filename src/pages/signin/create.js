@@ -1,5 +1,4 @@
 import Layout from "@/components/Layout";
-import Head from "next/head";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
@@ -20,11 +19,7 @@ const Create = () => {
 
 	return (
 		<Layout title={"Tanda Tangani Dokumen"}>
-			<Head>
-				<title>Tanda Tangani Dokumen</title>
-			</Head>
-
-			<div className="p-8 bg-gradient-to-tl from-[#043667] to-[#032B52] rounded-3xl mb-8">
+			<div className="p-8 bg-gradient-to-tl from-[#043667] to-[#032B52] rounded-3xl mb-8" data-aos="fade-up">
 				<h1 className="text-2xl lg:text-3xl">Informasi</h1>
 				<p className="mt-2.5 text-[#C5E1FC]">Unggah dokumen PDF untuk Anda tanda tangani sendiri. Ukuran maksimum dokumen 25 MB.</p>
 			</div>
@@ -35,7 +30,7 @@ const Create = () => {
 				</div>
 			)}
 
-			<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4">
+			<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4" data-aos="fade-up" data-aos-delay="100">
 				<h3 className="text-xl mb-6">Unggah Dokumen</h3>
 				<form onSubmit={handleSubmit}>
 					<div className="grid md:grid-cols-2 gap-6">

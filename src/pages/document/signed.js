@@ -1,21 +1,16 @@
 import Layout from "@/components/Layout";
-import Head from "next/head";
 import Link from "next/link";
 
 const Signed = () => {
 	return (
 		<Layout title={"Dokumen Ditandatangani"}>
-			<Head>
-				<title>Dokumen Ditandatangani</title>
-			</Head>
-
-			<div className="p-8 bg-gradient-to-tl from-[#043667] to-[#032B52] rounded-3xl mb-8">
+			<div className="p-8 bg-gradient-to-tl from-[#043667] to-[#032B52] rounded-3xl mb-8" data-aos="fade-up">
 				<p className="text-[#C5E1FC]">
 					Seluruh dokumen yang sudah Anda tanda tangani ditampilkan pada halaman ini.
 				</p>
 			</div>
 
-			<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4">
+			<div className="p-8 bg-gradient-to-tl to-[#141414] from-[#151515] rounded-3xl mb-4" data-aos="fade-up" data-aos-delay="100">
 				<div className="mb-6 sm:flex sm:items-center sm:justify-between">
 					<h3 className="text-xl mb-4 sm:mb-0">Daftar Dokumen</h3>
 					<div className="text-right sm:text-left">
