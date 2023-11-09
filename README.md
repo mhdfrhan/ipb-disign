@@ -1,4 +1,4 @@
-# Redesign Website IPB DiSignin
+# Redesign Website IPB DiSign
 
 Ini adalah redesain dari situs web <a href="https://digisign.ipb.ac.id/">IPB DiSign</a>.
 
@@ -14,7 +14,7 @@ Ini adalah redesain dari situs web <a href="https://digisign.ipb.ac.id/">IPB DiS
 
 ## Pendahuluan
 
-IPB DiSignin adalah situs web tanda tangan digital. Tanda tangan digital merupakan bentuk tanda tangan elektronik yang menggunakan metode kriptografi untuk menandai validitas dokumen digital.
+IPB DiSign adalah situs web tanda tangan digital. Tanda tangan digital merupakan bentuk tanda tangan elektronik yang menggunakan metode kriptografi untuk menandai validitas dokumen digital.
 
 
 ## Memulai
@@ -41,13 +41,13 @@ Ikuti langkah-langkah berikut untuk menjalankan lingkungan pengembangan:
 1. Klon repositori:
 
 ```bash
-git clone https://github.com/mhdfrhan/ipb-disignin
+git clone https://github.com/mhdfrhan/ipb-disign
 ```
 
 2. Arahkan ke direktori proyek:
 
 ```bash
-cd ipb-disignin
+cd ipb-disign
 ```
 
 3. Instal dependensi yang diperlukan:
@@ -73,4 +73,8 @@ Ini akan memulai server pengembangan. Akses aplikasi melalui browser Anda dengan
 
 ## Demo
 
+<<<<<<< HEAD
 Website dapat diakses di <a href="https://ipb-disignin.vercel.app/">https://ipb-disignin.vercel.app/</a>
+=======
+Website dapat diakses di <a href="https://ipb-disign.vercel.app/">https://ipb-disign.vercel.app/</a>
+>>>>>>> 09254301f1ecfd91efb3f7ecb7b9e2a22e1fa9b9
