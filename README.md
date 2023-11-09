@@ -10,7 +10,7 @@ Ini adalah redesain situs web <a href="https://digisign.ipb.ac.id/">IPB DiSign</
   - [Persyaratan](#persyaratan)
   - [Instalasi](#instalasi)
 - [Penggunaan](#penggunaan)
--[Demo](#demo)
+- [Demo](#demo)
 
 ## Pendahuluan
 
