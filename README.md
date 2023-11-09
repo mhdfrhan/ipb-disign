@@ -1,4 +1,4 @@
-# Redesign Website IPB DiSignin
+# Redesign Website IPB DiSign
 
 Ini adalah redesain dari situs web <a href="https://digisign.ipb.ac.id/">IPB DiSign</a>.
 
@@ -14,7 +14,7 @@ Ini adalah redesain dari situs web <a href="https://digisign.ipb.ac.id/">IPB DiS
 
 ## Pendahuluan
 
-IPB DiSignin adalah situs web tanda tangan digital. Tanda tangan digital merupakan bentuk tanda tangan elektronik yang menggunakan metode kriptografi untuk menandai validitas dokumen digital.
+IPB DiSign adalah situs web tanda tangan digital. Tanda tangan digital merupakan bentuk tanda tangan elektronik yang menggunakan metode kriptografi untuk menandai validitas dokumen digital.
 
 
 ## Memulai
@@ -73,4 +73,4 @@ Ini akan memulai server pengembangan. Akses aplikasi melalui browser Anda dengan
 
 ## Demo
 
-Website dapat diakses di <a href="https://ipb-disignin.vercel.app/">https://ipb-disignin.vercel.app/</a>
+Website dapat diakses di <a href="https://ipb-disign.vercel.app/">https://ipb-disign.vercel.app/</a>
