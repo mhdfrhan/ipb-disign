@@ -1,6 +1,6 @@
 # Redesign Website IPB DiSignin
 
-Ini adalah redesain situs web <a href="https://digisign.ipb.ac.id/">IPB DiSign</a>.
+Ini adalah redesain dari situs web <a href="https://digisign.ipb.ac.id/">IPB DiSign</a>.
 
 ## Daftar Isi
 
