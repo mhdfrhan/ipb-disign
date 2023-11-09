@@ -1,40 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Redesign Website IPB DiSignin
 
-## Getting Started
+Ini adalah redesain situs web <a href="https://digisign.ipb.ac.id/">IPB DiSign</a>.
 
-First, run the development server:
+## Daftar Isi
+
+- [Pendahuluan](#pendahuluan)
+- [Teknologi yang Digunakan](#teknologi-yang-digunakan)
+- [Memulai](#memulai)
+  - [Persyaratan](#persyaratan)
+  - [Instalasi](#instalasi)
+- [Penggunaan](#penggunaan)
+
+## Pendahuluan
+
+IPB DiSignin adalah situs web tanda tangan digital. Tanda tangan digital merupakan bentuk tanda tangan elektronik yang menggunakan metode kriptografi untuk menandai validitas dokumen digital.
+
+
+## Memulai
+
+Instruksi berikut akan membantu Anda mendapatkan salinan proyek untuk pengembangan dan tujuan pengujian di mesin lokal Anda.
+
+## Teknologi yang Digunakan
+
+- Tailwind CSS 
+- Preline UI
+- Nextjs
+
+### Persyaratan
+
+Sebelum memulai, pastikan Anda telah menginstal hal berikut:
+
+- Node.js 18.17 atau versi lebih baru.
+- npm (Node Package Manager) atau yarn
+
+### Instalasi
+
+Ikuti langkah-langkah berikut untuk menjalankan lingkungan pengembangan:
+
+1. Klon repositori:
+
+```bash
+git clone https://github.com/mhdfrhan/ipb-disignin
+```
+
+2. Arahkan ke direktori proyek:
+
+```bash
+cd ipb-disignin
+```
+
+3. Instal dependensi yang diperlukan:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+## Penggunaan
+
+Untuk menjalankan proyek secara lokal, gunakan perintah berikut:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Ini akan memulai server pengembangan. Akses aplikasi melalui browser Anda dengan mengunjungi `http://localhost:3000`.

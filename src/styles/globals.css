@@ -1,27 +1,92 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html,body {
+	@apply scroll-smooth
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	@apply bg-neutral-950 text-white antialiased font-sans  font-medium
+}
+
+/* width */
+::-webkit-scrollbar {
+  @apply w-[10px] h-2.5
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-neutral-800
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-neutral-700 rounded-full
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-neutral-600
+}
+
+[data-hs-overlay-backdrop-template] {
+	@apply bg-neutral-900/60 hidden
+}
+
+button {
+	@apply active:scale-90 duration-300
+}
+
+.side-link {
+	@apply flex items-center gap-x-3.5 py-2 px-6 text-sm text-neutral-400 rounded-xl hover:bg-neutral-800 active:scale-[.80] duration-500
+}
+
+.side-link.active {
+	@apply bg-neutral-800 text-white
+}
+
+.hs-accordion .sub-link {
+	@apply flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-neutral-400 rounded-xl hover:bg-neutral-800 hover:px-5 duration-300 mb-1
+}
+
+.table {
+	@apply w-full border-collapse table-auto 
+}
+
+.table th {
+	@apply text-sm text-[#7E7E7E] border-b py-3 px-4 border-neutral-800 text-left
+}
+
+.table td {
+	@apply text-sm text-white py-3 px-4 align-top
+}
+
+.label {
+	@apply text-sm block text-neutral-600 mb-2
+}
+
+.input-form {
+	@apply w-full bg-neutral-900 border border-neutral-800 px-3 py-2 focus:ring-0 focus:outline-0 focus:border-neutral-700 hover:border-neutral-700 duration-300 rounded-xl placeholder:text-neutral-600
+}
+
+.sub-link.active {
+	@apply px-5 bg-neutral-800
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.sigCanvas {
+	@apply w-full h-[250px]
 }
