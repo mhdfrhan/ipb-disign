@@ -41,13 +41,13 @@ Ikuti langkah-langkah berikut untuk menjalankan lingkungan pengembangan:
 1. Klon repositori:
 
 ```bash
-git clone https://github.com/mhdfrhan/ipb-disignin
+git clone https://github.com/mhdfrhan/ipb-disign
 ```
 
 2. Arahkan ke direktori proyek:
 
 ```bash
-cd ipb-disignin
+cd ipb-disign
 ```
 
 3. Instal dependensi yang diperlukan:
