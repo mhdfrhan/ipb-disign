@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import logo from "../../public/img/logo.png"
 
 const Navbar = ({ title }) => {
 
@@ -24,7 +26,10 @@ const Navbar = ({ title }) => {
 					<div className="flex items-center justify-between lg:hidden">
 						<div className="lg:hidden">
 							<Link href="/" className="flex-none text-xl font-semibold" aria-label="Logo">
-								<img src="/img/logo.png" className="w-40" alt="Logo" />
+								<Image src={logo} sizes="100vw" alt="Logo" priority style={{
+									width: "150px",
+									height: "auto"
+								}} />
 							</Link>
 						</div>
 						<div>

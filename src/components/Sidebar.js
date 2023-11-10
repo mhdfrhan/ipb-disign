@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import logo from "../../public/img/logo.png"
 
 const Sidebar = () => {
 	const router = useRouter()
@@ -9,11 +11,14 @@ const Sidebar = () => {
 			className="hs-overlay hs-overlay-open:translate-x-0 -translate-x-full transition-all duration-300 transform hidden fixed top-0 left-0 bottom-0 z-[60] w-64 pt-7 pb-10 overflow-y-auto scrollbar-y lg:block lg:translate-x-0 lg:right-auto lg:bottom-0 scrollbar-y bg-neutral-900 lg:my-4 lg:ml-4 lg:rounded-3xl [--body-scroll:true]">
 			<div className="px-6">
 				<Link className="flex-none text-xl font-semibold" href="/" aria-label="Logo">
-					<img src="/img/logo.png" alt="Logo" />
+					<Image src={logo} sizes="100vw" alt="Logo" priority style={{ 
+						width: "100%",
+						height: "auto"
+					 }} />
 				</Link>
 			</div>
 			<div className="mt-4 py-3 px-6 border-t border-b border-neutral-800 flex items-center gap-4">
-				<img src="/img/profile-1.jpg" alt="profile" className="w-10 h-10 rounded-full" />
+				<Image src="/img/profile-1.jpg" alt="profile" width={40} height={40} className="rounded-full" />
 				<div className="text-sm">
 					Muhammad Farhan
 					<span className="block mt-px text-xs text-neutral-400 font-normal">Bergabung Okt, 2023</span>

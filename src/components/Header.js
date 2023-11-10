@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
@@ -28,7 +29,7 @@ const Header = () => {
 			<nav className="max-w-6xl w-full mx-auto px-5 md:flex md:items-center md:justify-between" aria-label="Global">
 				<div className="flex items-center justify-between">
 					<Link className="flex-none" href="/">
-						<img src="/img/logo.png" alt="Logo" className="w-40" />
+						<Image src="/img/logo.png" alt="Logo" width={160} height={40} loading="lazy" />
 					</Link>
 					<div className="md:hidden">
 						<button type="button" className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-x-2 rounded-lg border bg-neutral-800  border-neutral-700 text-white  focus:outline-none focus:ring-1 focus:ring-neutral-600" data-hs-collapse="#navbar" aria-controls="navbar" aria-label="Toggle navigation">
