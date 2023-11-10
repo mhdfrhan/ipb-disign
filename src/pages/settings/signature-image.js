@@ -59,7 +59,7 @@ const SignatureImage = () => {
 							</div>
 						</div>
 					</div>
-					<div className="w-full sm:w-1/2 px-3">
+					<div className="w-full sm:w-1/2 px-3 mt-6 sm:mt-0">
 						<div className="p-6 border border-neutral-800 bg-neutral-900 rounded-xl">
 							<h6>Paraf</h6>
 							<span className="block text-sm text-neutral-600 mt-1">Anda belum memiliki gambar paraf. Silahkan upload atau gambar pada form dibawah.</span>

@@ -42,7 +42,7 @@ const Header = () => {
 						<Link className={`${router.pathname === "/" ? "text-gold" : "text-neutral-500 hover:text-neutral-400"} duration-300`} href="/" aria-current="page">Verifikasi</Link>
 						<Link className="font-medium text-neutral-500 hover:text-neutral-400 duration-300" href="https://ipb.link/panduan-disign" target={"_blank"}>Panduan</Link>
 						<Link className={`${router.pathname === "/about" ? "text-gold" : "text-neutral-500 hover:text-neutral-400"} duration-300`} href="/about">Tentang</Link>
-						<Link className="font-medium text-neutral-500 hover:text-neutral-400 duration-300" href="/disclaimer">Disclaimer</Link>
+						<Link className={`font-medium ${router.pathname === "/disclaimer" ? "text-gold" : "text-neutral-500 hover:text-neutral-400"} duration-300`} href="/disclaimer">Disclaimer</Link>
 						<div className="md:ml-3">
 							<Link href={"/dashboard"} className="inline-block py-2 px-3 bg-[#073a6d] text-white text-sm rounded-lg hover:opacity-80 duration-300 active:scale-90">Dashboard</Link>
 						</div>
