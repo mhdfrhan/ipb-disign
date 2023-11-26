@@ -72,9 +72,4 @@ Ini akan memulai server pengembangan. Akses aplikasi melalui browser Anda dengan
 
 
 ## Demo
-
-<<<<<<< HEAD
-Website dapat diakses di <a href="https://ipb-disignin.vercel.app/">https://ipb-disignin.vercel.app/</a>
-=======
 Website dapat diakses di <a href="https://ipb-disign.vercel.app/">https://ipb-disign.vercel.app/</a>
->>>>>>> 09254301f1ecfd91efb3f7ecb7b9e2a22e1fa9b9
